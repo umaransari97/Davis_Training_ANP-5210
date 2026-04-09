@@ -1,0 +1,9 @@
+def count_digits(num):
+    # Converting to string and using len() to find its length
+    
+    return len(str(num)) #returning lenght of numbers
+
+# Taking numeric input from user
+digit_input = int(input("Enter a number to count digits: "))
+# Calling the function
+print(f"Output: {count_digits(digit_input)}")
